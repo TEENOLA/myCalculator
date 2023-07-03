@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(218, 231, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 350px;
+    height: 400px;
+}
+
+#screen{
+    font-size: 50px;
+    background-color: black;
+    color: rgb(253, 125, 6);
+    text-align: right;
+    width: 314px;
+    height: 70px;
+    margin-left: -6px;
+    
+
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    margin-left: -6px;
+    margin-bottom: -3px;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+#clear{
+    width: 158px
+}
+
+#zero{
+    width: 236px;        
+}
+
+.button:hover{
+    background-color: rgb(230, 37, 165);
+    color: aqua;
+}
+
+.button:active{
+    background-color: white;
+}
+
+#divide,#multiply,#minus,#add,#equals{
+    background-color: rgb(19, 226, 53);
+}
+#divide:hover{
+    background-color: green;
+}
+
+#multiply:hover{
+    background-color: green;
+}
+#minus:hover{
+    background-color: green;
+}
+#add:hover{
+    background-color: green;
+}
+#equals:hover{
+    background-color: green;
+}
