@@ -1,0 +1,82 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+}
+.calculator{
+    padding: 0;
+    background-color: aqua;
+    width: 317px;
+}
+
+.screen{
+    width: 317px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+}
+
+.buttons{
+    width: 360px;
+    margin: 0;
+
+}
+
+button{
+    background-color: rgb(204, 202, 202);
+    border: 1px solid black;
+    font-size: 40px;
+    width: 80px;
+    height: 90px;
+    margin-right: -5px;
+}
+
+button:hover{
+    background-color: azure;
+}
+
+button:active{
+    background-color: black;
+    color: white
+}
+
+#clear{
+    width: 159px;
+}
+
+#zero{
+    width: 238px;
+    border-left: none;
+    border-bottom: none;
+}
+
+#division,#multiply,#minus,#add,#equals{
+    background-color: orange;
+    border-right: none;
+}
+
+#clear,#seven,#four,#one{
+    border-left: none;
+}
+#equals{
+    border-bottom: none;
+}
+#division:hover{
+    background-color: rgb(189, 124, 4);
+}
+#multiply:hover{
+    background-color: rgb(189, 124, 4);
+}
+#minus:hover{
+    background-color: rgb(189, 124, 4);
+}
+#add:hover{
+    background-color: rgb(189, 124, 4);
+}
+#equals:hover{
+    background-color: rgb(189, 124, 4);
+}
